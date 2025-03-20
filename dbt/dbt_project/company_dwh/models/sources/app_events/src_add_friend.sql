@@ -2,10 +2,10 @@
 select
     timestamp as date_ts,
     pet_id,
-    post_id,
-    like_type
-    
-from {{ source("app_events", "post_like") }} 
+    friend_pet_id,
+    source_id,
+    source_type
+from {{ source("app_events", "add_friend") }} 
 where
     1 = 1
 

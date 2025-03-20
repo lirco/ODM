@@ -1,11 +1,10 @@
 -- this is a view!
 select
-    timestamp as date_ts,
-    pet_id,
+    timestamp as comment_date_ts,
+    commenting_pet_id,
     post_id,
-    chars_count,
-    post_topic
-from {{ source("app_events", "post_submit") }} 
+    comment_chars_count,
+from {{ source("app_events", "post_comment") }} 
 where
     1 = 1
 
