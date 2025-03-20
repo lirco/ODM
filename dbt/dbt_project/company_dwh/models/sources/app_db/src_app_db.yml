@@ -1,0 +1,15 @@
+version: 2
+
+
+sources:
+ - name: app_db
+   database: houhou_raw_data
+   schema: appdb
+   tables:
+    - name: owners
+      identifier: owners
+      description: "owners data"
+      
+    - name: pets
+      identifier: pets
+      description: "pets data"

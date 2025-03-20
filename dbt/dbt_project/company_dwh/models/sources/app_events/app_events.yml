@@ -1,0 +1,29 @@
+version: 2
+
+
+sources:
+ - name: app_events
+   database: houhou_raw_data
+   schema: app_events
+   tables:
+    - name: login_events
+      identifier: login_events
+      description: "login events"
+    - name: post_like
+      identifier: post_likes
+      description: "post likes"
+    - name: comment
+      identifier: commebt
+      description: "fired when a pet comments on another pet's post"
+    - name: post_submission
+      identifier: post_submissions
+      description: "post submissions"
+    - name: post_click
+      identifier: post_click
+      description: "post click"
+    - name: add_friend
+      identifier: add_friend
+      description: "add friend"
+  
+      
+    
