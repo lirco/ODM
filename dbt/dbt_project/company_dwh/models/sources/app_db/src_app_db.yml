@@ -9,7 +9,12 @@ sources:
     - name: owners
       identifier: owners
       description: "owners data"
-      
     - name: pets
       identifier: pets
       description: "pets data"
+    - name: pet_types
+      identifier: pets_types
+      description: "pets type id translated to pet type and sub-type names. for example type_id = 1 is type_name 'Dog' and sub_type_name 'Husky' "
+    - name: posts
+      identifier: posts
+      description: "feed posts"
