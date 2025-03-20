@@ -1,4 +1,4 @@
-
+-- all the pets are here, and each pet has only one row
 select
     pet_id,
     owner_id,

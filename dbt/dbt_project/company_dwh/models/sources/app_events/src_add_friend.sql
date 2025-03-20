@@ -1,6 +1,7 @@
 -- this is a view!
 select
     timestamp as date_ts,
+    cast(timestamp as date)   as date_day,
     pet_id,
     friend_pet_id,
     source_id,

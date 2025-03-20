@@ -1,6 +1,7 @@
 -- this is a view!
 select
-    timestamp as comment_date_ts,
+    timestamp as date_ts,
+    cast(timestamp as date)   as date_day,
     commenting_pet_id,
     post_id,
     comment_chars_count,
