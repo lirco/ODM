@@ -15,9 +15,9 @@ sources:
     - name: comment
       identifier: commebt
       description: "fired when a pet comments on another pet's post"
-    - name: post_submission
-      identifier: post_submissions
-      description: "post submissions"
+    - name: post_submit
+      identifier: post_submit
+      description: "post submit event"
     - name: post_click
       identifier: post_click
       description: "post click"
