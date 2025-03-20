@@ -4,6 +4,7 @@ select
     cast(timestamp as date)   as date_day,
     pet_id,
     post_id,
+    post_pet_id,
     like_type
     
 from {{ source("app_events", "post_like") }} 
