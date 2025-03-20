@@ -1,0 +1,15 @@
+version: 2
+
+
+sources:
+ - name: google_ads
+   database: houhou_raw_data
+   schema: google_ads
+   tables:
+    - name: campaign_metadata
+      identifier: campaign_metadata
+      description: "campaign metadata"
+      
+    - name: campaign_performance
+      identifier: campaign_performance
+      description: "campaign performance on a daily basis"
